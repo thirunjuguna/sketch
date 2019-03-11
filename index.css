@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  border: 3px solid black;
+  grid-gap: 1px;
+  height: 768px;
+  width: 1024px;
+  margin: auto;
+}
+
+.btn {
+  font-size: 15px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.header {
+  text-align: center;
+}
+
+.item {
+  background-color: black;
+  opacity: 0.1;
+  height: auto;
+  width: auto;
+}
+
+.selected {
+  background-color: blue;
+}

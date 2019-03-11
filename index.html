@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Etch-a-Sketch</title>
+	<script type="text/javascript" src="main.js" async></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1>Etch-a-Sketch</h1>
+		<button class="btn" onclick="reset()">Reset</button>
+		<button class="btn" onclick="newGrid()">New Grid</button>
+		<button class="btn selected" id="solid" onclick="setSolid(true)">Solid</button>
+		<button class="btn" id="gradient" onclick="setSolid(false)">Gradient</button>
+		<button class="btn selected" id="black" onclick="setRandom(false)">Black</button>
+		<button class="btn" id="rainbow" onclick="setRandom(true)">Rainbow</button>
+	</div>
+	<div class="container"></div>
+
+</body>
+
+</html>
